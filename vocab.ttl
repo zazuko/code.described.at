@@ -23,11 +23,11 @@
   rdfs:label "ECMAScript Code";
   rdfs:comment "Code as defined by the ECMAScript specification".
 
-<EcmaScriptTemplateLiteral> a rdfs:Class;
+<EcmaScriptTemplateLiteral> a rdfs:Datatype;
   rdfs:label "ECMAScript Template Literal";
   rdfs:comment "Template Literal as defined in the ES2015 ECMAScript specification".
 
-<SparqlEcmaScriptTemplateLiteral> a rdfs:Class;
+<SparqlEcmaScriptTemplateLiteral> a rdfs:Datatype;
   rdfs:label "SPARQL ECMAScript Template Literal";
   rdfs:comment "ES2015 ECMAScript Template Literal enriched SPARQL query".
 
@@ -35,7 +35,7 @@
   rdfs:label "Variable";
   rdfs:comment "Definition of a variable".
 
-<VariableName> a rdfs:Class;
+<VariableName> a rdfs:Datatype;
   rdfs:label "Variable Name";
   rdfs:comment "Name of a variable".
 
